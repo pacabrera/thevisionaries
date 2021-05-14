@@ -10061,7 +10061,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #28a745;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10196,7 +10196,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/img/bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10293,4 +10293,30 @@ footer.footer .social-link:hover {
 
 .rounded-circle {
   max-width: 200px;
+}
+
+.text-green {
+  color:#0B2817;
+}
+
+.bg-green {
+  background-color:#0B2817;
+}
+
+
+.content-main {
+  font-size: 18px;
+}
+
+.content-main strong{
+  font-size: 24px;
+}
+
+.content-main p{
+  text-align: justify;
+}
+
+.cta{
+  font-size: 24px;
+  font-weight: bold;
 }
